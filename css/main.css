@@ -7105,17 +7105,17 @@ img.p-3 {
     height: 52px;
     padding: 0 !important;
 }
-h2, .h2 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 .phone-link a:hover {
     color: #f72e2e;
 }
-.card.slick-slide img {
+.card img {
     transition:.5s;
 }
-.card.slick-slide:hover img {
+.card:hover img {
     opacity: .5;
     transition:.5s;
 }
@@ -7137,6 +7137,15 @@ p>a:hover {text-decoration: none; color: #f72e2e; border-bottom: 1px dashed #f72
 .btn.btn-outline-danger {
     color: #000;
 }
+.row p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.seo #seo-works .card, .about #our-works .card {
+    margin: 1rem;
+    width: calc(33.3333% - 2rem);
+}
+.blocks-center {justify-content: center;}
 
 
 @media screen and (max-width: 991px) {
@@ -7148,10 +7157,18 @@ p>a:hover {text-decoration: none; color: #f72e2e; border-bottom: 1px dashed #f72
 .navbar .phone-link.mr-5, .navbar .phone-link.mx-5 {
     padding-left: 0 !important;
 }
+.seo #seo-works .card, .about #our-works .card {
+    width: calc(50% - 2rem);
+}
 }
 @media screen and (max-width: 767px) {
 .phone-numbers {
     order: 1;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    
+}
+    .seo #seo-works .card, .about #our-works .card {
+    width: 100%;
+}
 }

@@ -17,7 +17,7 @@ $(document).ready(function (){
         }, 300);
     });
 
-    $('#our-works').slick({
+    /*$('#our-works').slick({
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -66,7 +66,7 @@ $(document).ready(function (){
                 }
             }
         ]
-    });
+    });*/
 
     $('#reviews').slick({
         infinite: true,
