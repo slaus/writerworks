@@ -17,57 +17,6 @@ $(document).ready(function (){
         }, 300);
     });
 
-    /*$('#our-works').slick({
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    arrows: true,
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: true,
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 500,
-                settings: {
-                    arrows: true,
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
-
-    $('#seo-works').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    arrows: true,
-                    slidesToShow: 2
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: true,
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });*/
-
     $('#reviews').slick({
         infinite: true,
         slidesToShow: 1,
@@ -105,4 +54,5 @@ $(document).ready(function (){
             processData: false
         });
     });
+
 });

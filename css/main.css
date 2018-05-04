@@ -6315,12 +6315,15 @@ a.text-dark:hover, a.text-dark:focus {
     height: 80px; }
   .navbar .phone-link {
     font-size: 1rem;
-    font-family: Intro-Book, sans-serif; }
+    font-family: Intro-Book, sans-serif;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;}
   .navbar .callback {
     display: none; }
 
 .navbar.scrolled {
-  background: rgba(255, 255, 255, 0.9); }
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: -4px 4px 10px #ddd;}
   .navbar.scrolled .logo {
     width: auto;
     height: 40px; }
@@ -6378,9 +6381,9 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar.scrolled .callback {
     display: none; } }
 
-@media screen and (max-width: 500px) {
-  .phone-numbers {
-    display: none !important; } }
+/*@media screen and (max-width: 500px) {*/
+  /*.phone-numbers {*/
+    /*display: none !important; } }*/
 
 @font-face {
   font-family: Intro-Inline;
@@ -6516,12 +6519,16 @@ a.text-dark:hover, a.text-dark:focus {
       bottom: 30%;
       left: 0;
       right: 0;
-      padding: .5rem; }
+      padding: .5rem;
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
+      text-transform: uppercase;}
       .about #our-works .card h4 small {
         display: block;
         padding-top: 1rem;
         font-size: .7rem;
-        line-height: .7rem; }
+        line-height: .7rem;
+        font-weight: 700;}
     .about #our-works .card h5 {
       font-family: GothamProLight, sans-serif; }
     .about #our-works .card img {
@@ -6735,7 +6742,8 @@ div.repetitor.jumbotron {
       left: 0;
       right: 0;
       color: #fff;
-      text-shadow: 1px 1px 10px #000;}
+      text-shadow: 1px 1px 2px #000;
+      text-transform: uppercase;}
       .seo #seo-works .card h4 small {
         display: block;
         padding-top: 1rem;
@@ -7171,4 +7179,40 @@ p>a:hover {text-decoration: none; color: #f72e2e; border-bottom: 1px dashed #f72
     .seo #seo-works .card, .about #our-works .card {
     width: 100%;
 }
+}
+#reviews {
+  display: block !important;
+}
+.custom-select {
+  background: none;
+}
+section.seo, section#about-info {
+  background: #fff;
+}
+.language-block {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.language-block div {
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.language {
+  color: #f72e2e;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f72e2e;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+.actions h2, .actions .h2 {
+  font-size: 1.6rem;
 }

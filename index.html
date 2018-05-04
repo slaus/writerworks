@@ -14,1116 +14,1433 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="css/star-rating.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/star-rating.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+          integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+          crossorigin="anonymous">
 </head>
 
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="50" id="body">
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-    <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand smooth-scroll" href="#body">
-                <img src="img/logo.png" class="logo" alt="Writer Works">
-            </a>
-            <a href="#contacts" class="btn btn-outline-danger btn-sm ml-4 callback">ОБРАТНЫЙ ЗВОНОК</a>
-            <div class="d-flex flex-row flex-wrap justify-content-center align-items-center phone-numbers d-lg-none">
-                <span class="mr-5 phone-link">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:380972868283">(097) 286 82 83</a>
-                </span>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- header -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand smooth-scroll" href="#body">
+            <img src="img/logo.png" class="logo" alt="Writer Works">
+        </a>
+        <a href="#contacts" class="btn btn-outline-danger btn-sm ml-4 callback">ОБРАТНЫЙ ЗВОНОК</a>
+        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center phone-numbers d-lg-none">
                 <span class="phone-link">
                     <i class="fas fa-phone"></i>
-                    <a href="tel:380668653077">(066) 865 30 77</a>
+                    <a href="tel:+380972868283">(097) 286 82 83</a>
                 </span>
-            </div>
-            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            <span class="phone-link">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+380668653077">(066) 865 30 77</a>
+                </span>
+        </div>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex flex-column" id="collapsibleNavId">
-                <div class="d-flex flex-row justify-content-between w-100 phones">
-                    <div class="d-flex flex-row flex-wrap justify-content-center w-100 align-items-center">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex flex-column" id="collapsibleNavId">
+            <div class="d-flex flex-row justify-content-between w-100 phones">
+                <div class="d-flex flex-row flex-wrap justify-content-center w-100 align-items-center">
                         <span class="mr-5 phone-link">
                             <i class="fas fa-phone"></i>
-                            <a href="tel:380972868283">(097) 286 82 83</a>
+                            <a href="tel:+380972868283">(097) 286 82 83</a>
                         </span>
-                        <span class="phone-link">
+                    <span class="phone-link">
                             <i class="fas fa-phone"></i>
-                            <a href="tel:380668653077">(066) 865 30 77</a>
+                            <a href="tel:+380668653077">(066) 865 30 77</a>
                         </span>
-                    </div>
-                    <div>
-                        <a href="#contacts" class="btn btn-lg btn-outline-danger">ОБРАТНЫЙ ЗВОНОК</a>
-                    </div>
                 </div>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#about">О нас
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#prices">Услуги и цены</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#guaranties">Гарантии</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#actions">Скидки</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#contacts">Контакты</a>
-                    </li>
-                </ul>
+                <div>
+                    <a href="#contacts" class="btn btn-lg btn-outline-danger">ОБРАТНЫЙ ЗВОНОК</a>
+                </div>
             </div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#about">О нас
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#prices">Услуги и цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#guaranties">Гарантии</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#actions">Скидки</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link smooth-scroll" href="#contacts">Контакты</a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    <!-- jumbotron -->
-    <section id="about" class="jumbotron main-slider slider jumbotron-fluid py-0">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-lg-6 h-lg-100">
-                    <h1 class="d-flex flex-column justify-content-center h-100 text-center main-header">
-                        <span class="in1">БЕРЕМ</span>
-                        <span class="in2">НА СЕБЯ</span>
-                        <span class="in3">ЗАБОТЫ</span>
-                        <span class="in4">СТУДЕНТОВ</span>
-                    </h1>
-                </div>
-                <div class="col-lg-6 h-lg-100 d-flex flex-column justify-content-center main-form">
-                    <div class="form">
-                        <h3 class="text-center">Узнай стоимость своей работы</h3>
-                        <ul class="nav nav-tabs nav-fill" id="formTabs" role="tablist">
-                            <li class="nav-item">
-                                <a href="#works" class="nav-link active" data-toggle="tab" role="tab" aria-controls="works" aria-selected="true">Студ. работы</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#repetitor" class="nav-link" data-toggle="tab" role="tab" aria-controls="repetitor" aria-selected="false">Репетиторство</a>
-                            </li>
-                            <li class="nav-item disabled">
-                                <a href="#translate" class="nav-link" data-toggle="tab" role="tab" aria-controls="translate" aria-selected="false">Перевод</a>
-                            </li>
-                            <li class="nav-item disabled">
-                                <a href="#writing" class="nav-link" data-toggle="tab" role="tab" aria-controls="writing" aria-selected="false">Набор текста</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="formTabsContent">
-                            <div class="tab-pane fade show active" id="works" role="tabpanel" aria-labelledby="works-tab">
-                                <form action="studWorks.php" method="post" class="p-3">
-                                    <legend class="text-center">Заказать работу</legend>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="name">Ваше имя</label>
-                                                    <input type="text" name="name" required id="name" class="form-control" placeholder="Ваше имя" aria-describedby="name">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="phone">Номер телефона</label>
-                                                    <input type="tel" name="phone" required id="phone" class="form-control" placeholder="Номер телефона" aria-describedby="phone">
-                                                </div>
-                                            </div>
-                                            <!-- <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="work_type">Вид работы</label>
-                                                    <select class="form-control" name="work_type" id="work_type">
-                                                        <option>Кусовая работа</option>
-                                                        <option>Вид работы 2</option>
-                                                        <option>Вид работы 3</option>
-                                                    </select>
-                                                </div>
-                                            </div> -->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="subject">Предмет</label>
-                                                    <div class="input-group">
-                                                        <select class="custom-select" name="subject" id="subject">
-                                                            <option>Педагогика</option>
-                                                            <option>Предмет 1</option>
-                                                            <option>Предмет 2</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="work_email">Ваш e-mail</label>
-                                                    <input type="email" name="work_email" required id="work_email" class="form-control" placeholder="Ваш e-mail" aria-describedby="work_email">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="deadline">Срок сдачи</label>
-                                                    <input type="date" name="deadline" required id="deadline" class="form-control" placeholder="Срок сдачи" aria-describedby="deadline">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="pages">Объем работы, стр</label>
-                                                    <input type="text" name="pages" required id="pages" class="form-control" placeholder="Объем работы, стр" aria-describedby="pages">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="">Прикрепить файл</label>
-                                                    <input type="file" class="form-control-file" name="custom_file" id="custom_file" placeholder="Файл" aria-describedby="fileHelpId">
-                                                </div>
+    </div>
+</nav>
+<!-- jumbotron -->
+<section id="about" class="jumbotron main-slider slider jumbotron-fluid py-0">
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-lg-6 h-lg-100">
+                <h1 class="d-flex flex-column justify-content-center h-100 text-center main-header">
+                    <span class="in1">БЕРЕМ</span>
+                    <span class="in2">НА СЕБЯ</span>
+                    <span class="in3">ЗАБОТЫ</span>
+                    <span class="in4">СТУДЕНТОВ</span>
+                </h1>
+            </div>
+            <div class="col-lg-6 h-lg-100 d-flex flex-column justify-content-center main-form">
+                <div class="form">
+                    <h3 class="text-center">Узнай стоимость своей работы</h3>
+                    <ul class="nav nav-tabs nav-fill" id="formTabs" role="tablist">
+                        <li class="nav-item">
+                            <a href="#works" class="nav-link active" data-toggle="tab" role="tab" aria-controls="works"
+                               aria-selected="true">Студ. работы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#repetitor" class="nav-link" data-toggle="tab" role="tab" aria-controls="repetitor"
+                               aria-selected="false">Репетиторство</a>
+                        </li>
+                        <li class="nav-item disabled">
+                            <a href="#translate" class="nav-link" data-toggle="tab" role="tab" aria-controls="translate"
+                               aria-selected="false">Перевод</a>
+                        </li>
+                        <li class="nav-item disabled">
+                            <a href="#writing" class="nav-link" data-toggle="tab" role="tab" aria-controls="writing"
+                               aria-selected="false">Набор текста</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="formTabsContent">
+                        <div class="tab-pane fade show active" id="works" role="tabpanel" aria-labelledby="works-tab">
+                            <form action="studWorks.php" method="post" class="p-3">
+                                <legend class="text-center">Заказать работу</legend>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Ваше имя</label>
+                                                <input type="text" name="name" required id="name" class="form-control"
+                                                       placeholder="Ваше имя" aria-describedby="name">
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-12 text-center">
-                                                <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ СТОИМОСТЬ</button>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phone">Номер телефона</label>
+                                                <input type="tel" name="phone" required id="phone" class="form-control"
+                                                       placeholder="Номер телефона" aria-describedby="phone">
                                             </div>
                                         </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="tab-pane fade" id="repetitor" role="tabpanel" aria-labelledby="repetitor-tab">
-                                <form action="repetitor.php" method="post" class="p-3">
-                                    <legend class="text-center">Репетиторство</legend>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="name">Ваше имя</label>
-                                                    <input type="text" name="name" required id="name" class="form-control" placeholder="Ваше имя" aria-describedby="name">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="phone">Номер телефона</label>
-                                                    <input type="tel" name="phone" required id="phone" class="form-control" placeholder="Номер телефона" aria-describedby="phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="subject">Предмет</label>
-                                                    <div class="input-group">
-                                                        <select class="custom-select" name="subject" id="subject">
-                                                            <option>Педагогика</option>
-                                                            <option>Предмет 1</option>
-                                                            <option>Предмет 2</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="work_email">Ваш e-mail</label>
+                                                <input type="email" name="work_email" required id="work_email"
+                                                       class="form-control" placeholder="Ваш e-mail"
+                                                       aria-describedby="work_email">
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-12 text-center">
-                                                <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ СТОИМОСТЬ</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="tab-pane fade" id="translate" role="tabpanel" aria-labelledby="translate-tab">
-                                <form action="translate.php" method="post" class="p-3">
-                                    <legend class="text-center">Перевод</legend>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="name">Ваше имя</label>
-                                                    <input type="text" name="name" required id="name" class="form-control" placeholder="Ваше имя" aria-describedby="name">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="phone">Номер телефона</label>
-                                                    <input type="tel" name="phone" required id="phone" class="form-control" placeholder="Номер телефона" aria-describedby="phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="work_type">С какого языка</label>
-                                                    <select class="form-control" name="from" id="from">
-                                                        <option>Русский язык</option>
-                                                        <option>Английский язык</option>
-                                                        <option>Немецкий язык</option>
-                                                        <option>Французский язык</option>
-                                                        <option>Немецкий язык</option>
-                                                        <option>Испанский язык</option>
-                                                        <option>Украинский язык</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="work_type">На какой</label>
-                                                    <select class="form-control" name="to" id="to">
-                                                        <option>Русский язык</option>
-                                                        <option>Английский язык</option>
-                                                        <option>Немецкий язык</option>
-                                                        <option>Французский язык</option>
-                                                        <option>Немецкий язык</option>
-                                                        <option>Испанский язык</option>
-                                                        <option>Украинский язык</option>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="subject">Вид работы</label>
+                                                <div class="input-group">
+                                                    <select class="custom-select" name="subject" id="subject">
+                                                        <option>Курсовая</option>
+                                                        <option>Магистерская</option>
+                                                        <option>Бакалаврская</option>
+                                                        <option>Диссертация</option>
+                                                        <option>Отчет по практике</option>
+                                                        <option>Реферат</option>
+                                                        <option>Контрольная</option>
+                                                        <option>Презентация</option>
+                                                        <option>Эссе</option>
+                                                        <option>Статья</option>
+                                                        <option>Расчетная</option>
+                                                        <option>Задача</option>
+                                                        <option>Тесты</option>
+                                                        <option>Пратическая</option>
+                                                        <option>Другое</option>
                                                     </select>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-12 text-center">
-                                                <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ СТОИМОСТЬ</button>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="work-subject">Тема работы</label>
+                                                <input type="text" name="work-subject" required id="work-subject"
+                                                       class="form-control" placeholder="Тема работы"
+                                                       aria-describedby="work-subject">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name-study">Предмет</label>
+                                                <input type="text" name="name-study" required id="name-study"
+                                                       class="form-control" placeholder="Предмет"
+                                                       aria-describedby="name-study">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="deadline">Дата выполнения</label>
+                                                <input type="date" name="deadline" required id="deadline"
+                                                       class="form-control" placeholder="Дата выполнения"
+                                                       aria-describedby="deadline">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="unicum">Уникальность, %</label>
+                                                <input type="text" name="unicum" required id="unicum"
+                                                       class="form-control" placeholder="Уникальность, %"
+                                                       aria-describedby="unicum">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="pages">Объем работы, стр</label>
+                                                <input type="text" name="pages" required id="pages" class="form-control"
+                                                       placeholder="Объем работы, стр" aria-describedby="pages">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="custom_file">Прикрепить файл</label>
+                                                <input type="file" class="form-control-file" name="custom_file"
+                                                       id="custom_file" placeholder="Файл"
+                                                       aria-describedby="fileHelpId">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="custom_file_1">Прикрепить файл</label>
+                                                <input type="file" class="form-control-file" name="custom_file_1"
+                                                       id="custom_file_1" placeholder="Файл"
+                                                       aria-describedby="fileHelpId">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="custom_file_2">Прикрепить файл</label>
+                                                <input type="file" class="form-control-file" name="custom_file_2"
+                                                       id="custom_file_2" placeholder="Файл"
+                                                       aria-describedby="fileHelpId">
                                             </div>
                                         </div>
                                     </div>
-                                </form>
-                            </div>
-                            <div class="tab-pane fade" id="writing" role="tabpanel" aria-labelledby="writing-tab">
-                                <form action="writing.php" method="post" class="p-3">
-                                    <legend class="text-center">Набор текста</legend>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="name">Ваше имя</label>
-                                                    <input type="text" name="name" required id="name" class="form-control" placeholder="Ваше имя" aria-describedby="name">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="phone">Номер телефона</label>
-                                                    <input type="tel" name="phone" required id="phone" class="form-control" placeholder="Номер телефона" aria-describedby="phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="pages">Объем работы, стр</label>
-                                                    <input type="text" name="pages" required id="pages" class="form-control" placeholder="Объем работы, стр" aria-describedby="pages">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label for="">Прикрепить файл</label>
-                                                    <input type="file" class="form-control-file" name="custom_file" id="custom_file" placeholder="Файл" aria-describedby="fileHelpId">
-                                                </div>
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ
+                                                СТОИМОСТЬ
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="repetitor" role="tabpanel" aria-labelledby="repetitor-tab">
+                            <form action="repetitor.php" method="post" class="p-3">
+                                <legend class="text-center">Репетиторство</legend>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Ваше имя</label>
+                                                <input type="text" name="name" required id="name" class="form-control"
+                                                       placeholder="Ваше имя" aria-describedby="name">
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-12 text-center">
-                                                <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ СТОИМОСТЬ</button>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phone">Номер телефона</label>
+                                                <input type="tel" name="phone" required id="phone" class="form-control"
+                                                       placeholder="Номер телефона" aria-describedby="phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="work_email">Ваш e-mail</label>
+                                                <input type="email" name="work_email" required id="work_email"
+                                                       class="form-control" placeholder="Ваш e-mail"
+                                                       aria-describedby="work_email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="subject">Предмет</label>
+                                                <input type="text" name="subject" required id="subject"
+                                                       class="form-control" placeholder="Предмет для изучения"
+                                                       aria-describedby="subject">
                                             </div>
                                         </div>
                                     </div>
-                                </form>
-                            </div>
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ
+                                                СТОИМОСТЬ
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="translate" role="tabpanel" aria-labelledby="translate-tab">
+                            <form action="translate.php" method="post" class="p-3">
+                                <legend class="text-center">Перевод</legend>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Ваше имя</label>
+                                                <input type="text" name="name" required id="name" class="form-control"
+                                                       placeholder="Ваше имя" aria-describedby="name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phone">Номер телефона</label>
+                                                <input type="tel" name="phone" required id="phone" class="form-control"
+                                                       placeholder="Номер телефона" aria-describedby="phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="work_email">Ваш e-mail</label>
+                                                <input type="email" name="work_email" required id="work_email"
+                                                       class="form-control" placeholder="Ваш e-mail"
+                                                       aria-describedby="work_email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="work_type">С какого языка</label>
+                                                <select class="form-control" name="from" id="from">
+                                                    <option>Английский язык</option>
+                                                    <option>Русский язык</option>
+                                                    <option>Немецкий язык</option>
+                                                    <option>Французский язык</option>
+                                                    <option>Немецкий язык</option>
+                                                    <option>Испанский язык</option>
+                                                    <option>Украинский язык</option>
+                                                    <option>Польский язык</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="work_type">На какой</label>
+                                                <select class="form-control" name="to" id="to">
+                                                    <option>Русский язык</option>
+                                                    <option>Английский язык</option>
+                                                    <option>Немецкий язык</option>
+                                                    <option>Французский язык</option>
+                                                    <option>Немецкий язык</option>
+                                                    <option>Испанский язык</option>
+                                                    <option>Украинский язык</option>
+                                                    <option>Польский язык</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ
+                                                СТОИМОСТЬ
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="writing" role="tabpanel" aria-labelledby="writing-tab">
+                            <form action="writing.php" method="post" class="p-3">
+                                <legend class="text-center">Набор текста</legend>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">Ваше имя</label>
+                                                <input type="text" name="name" required id="name" class="form-control"
+                                                       placeholder="Ваше имя" aria-describedby="name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phone">Номер телефона</label>
+                                                <input type="tel" name="phone" required id="phone" class="form-control"
+                                                       placeholder="Номер телефона" aria-describedby="phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="work_email">Ваш e-mail</label>
+                                                <input type="email" name="work_email" required id="work_email"
+                                                       class="form-control" placeholder="Ваш e-mail"
+                                                       aria-describedby="work_email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="pages">Объем работы, стр</label>
+                                                <input type="text" name="pages" required id="pages" class="form-control"
+                                                       placeholder="Объем работы, стр" aria-describedby="pages">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="subject-1">Вид работы</label>
+                                                <div class="input-group">
+                                                    <select class="custom-select" name="subject-1" id="subject-1">
+                                                        <option>Копирайтинг</option>
+                                                        <option>Рерайтинг</option>
+                                                        <option>Набор</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="custom_file">Прикрепить файл</label>
+                                                <input type="file" class="form-control-file" name="custom_file"
+                                                       id="custom_file" placeholder="Файл"
+                                                       aria-describedby="fileHelpId">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ
+                                                СТОИМОСТЬ
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- end jumbotron-->
-    <!-- about info -->
-    <section id="about-info" class="about">
-        <div class="container">
-            <div class="row py-3">
-                <div class="header text-uppercase">
-                    <h2>Writer Works – твой помощник в безграничном мире знаний</h2>
-                </div>
-                <p class="text-justify">Наш научно – образовательный сервис с радостью готов помочь в обучении студентам и не только, ведь мы знаем
-                    насколько сложно бывает совмещать учебу с работой и личной жизнью.</p>
-                <p class="text-justify">Не всегда хочется тратить свое время на анализ целой кучи литературы, на просиживание долгими ночами у компьютера
-                    с целью найти хоть «что-нибудь», правда?</p>
-                <div class="header text-uppercase">
-                    <h6 class="text-center">К счастью тебе повезло, ты попал к нам,
-                        <br>а значит тебе не стоит думать о заботах, мы берем их на себя!</h6>
-                </div>
-                <p class="text-justify">Уже более 10 лет мы облегчаем студентам жизнь по всей Украине и за границей. За это время выработалось безупречное
-                    владение необходимой информацией, чтобы твоя работа была лучше, чем у других! Наша основная направленность
-                    - это выполнение работ на заказ для студентов, но, кроме того, мы предоставляем услуги: репетиторства,
-                    набора и перевода текстов.</p>
-                <p class="text-justify">Выполняем на заказ диссертации, дипломные (бакалаврские, магистерские), курсовые, отчеты по практике, рефераты,
-                    контрольные, расчетные, доклады, презентации, тезисы и все остальные виды студенческих работ. Предметная
-                    направленность так же обширна.</p>
-                <p class="text-justify">Общественные и гуманитарные науки, естественные, юридические, экономические, точные, прикладные, технические.
-                    Все работы выполняются преподавателями различных ВУЗов Украины, а так же профильными специалистами, имеющими
-                    зачастую несколько высших образований и бесценный практический опыт работы в различных сферах (юриспруденция,
-                    экономика и финансы, филология, философия, психология, медицина и многие другие). Некоторые из авторов
-                    имеют ученые степени (научный сотрудник, аспирант, доцент, кандидат наук, доктор наук)</p>
-                <div class="header text-uppercase">
-                    <h6 class="text-center">Ты получишь качественное обслуживание, которое ориентированно на клиента и его пожелания.</h6>
-                </div>
-                <p class="text-justify">Качество работ гарантируется индивидуальным подходом к написанию, строгим контролем содержания и оформления
-                    каждого заказа. Для нас показатель эффективности – чтобы клиент был доволен своей работой и получил хорошие
-                    отзывы преподавателя. А по-другому и быть не может, ведь наша компания настроена на долгосрочное сотрудничество
-                    со своим клиентом, насколько это возможно.</p>
-
-                <div class="header text-uppercase">
-                    <h2 class="text-danger">Нерушимые принципы, по которым мы работаем:</h2>
-                </div>
-                <ol>
-                    <li>Все работы выполняем индивидуально, с высоким процентом уникальности (минимально – 60%), учитывая твои
-                        личные пожелания </li>
-                    <li>Контролируем качество выполнения, строго по методическим рекомендациям и государственным стандартам</li>
-                    <li>Предоставляем личное сопровождение менеджером, связь 7/7 с 08:00 до 24:00</li>
-                    <li>Бесплатно исправляем и/или добавляем текст в работы до получения оценки </li>
-                    <li>Выполняем быстро и во время</li>
-                    <li>Берем оплату частями. Ты всегда можешь проверить за что платишь деньги</li>
-                    <li>Не разглашаем информацию о клиенте, все строго конфиденциально</li>
-                    <li>Бесплатно консультируем по структуре защиты</li>
-                </ol>
+    </div>
+</section>
+<!-- end jumbotron-->
+<!-- about info -->
+<section id="about-info" class="about">
+    <div class="container">
+        <div class="row py-3">
+            <div class="header text-uppercase">
+                <h2>Writer Works – твой помощник в безграничном мире знаний</h2>
             </div>
+            <p class="text-justify">Наш научно – образовательный сервис с радостью готов помочь в обучении студентам и
+                не только, ведь мы знаем
+                насколько сложно бывает совмещать учебу с работой и личной жизнью.</p>
+            <p class="text-justify">Не всегда хочется тратить свое время на анализ целой кучи литературы, на
+                просиживание долгими ночами у компьютера
+                с целью найти хоть «что-нибудь», правда?</p>
+            <div class="header text-uppercase">
+                <h6 class="text-center">К счастью тебе повезло, ты попал к нам,
+                    <br>а значит тебе не стоит думать о заботах, мы берем их на себя!</h6>
+            </div>
+            <p class="text-justify">Уже более 10 лет мы облегчаем студентам жизнь по всей Украине и за границей. За это
+                время выработалось безупречное
+                владение необходимой информацией, чтобы твоя работа была лучше, чем у других! Наша основная
+                направленность
+                - это выполнение работ на заказ для студентов, но, кроме того, мы предоставляем услуги: репетиторства,
+                набора и перевода текстов.</p>
+            <p class="text-justify">Выполняем на заказ диссертации, дипломные (бакалаврские, магистерские), курсовые,
+                отчеты по практике, рефераты,
+                контрольные, расчетные, доклады, презентации, тезисы и все остальные виды студенческих работ. Предметная
+                направленность так же обширна.</p>
+            <p class="text-justify">Общественные и гуманитарные науки, естественные, юридические, экономические, точные,
+                прикладные, технические.
+                Все работы выполняются преподавателями различных ВУЗов Украины, а так же профильными специалистами,
+                имеющими
+                зачастую несколько высших образований и бесценный практический опыт работы в различных сферах
+                (юриспруденция,
+                экономика и финансы, филология, философия, психология, медицина и многие другие). Некоторые из авторов
+                имеют ученые степени (научный сотрудник, аспирант, доцент, кандидат наук, доктор наук)</p>
+            <div class="header text-uppercase">
+                <h6 class="text-center">Ты получишь качественное обслуживание, которое ориентированно на клиента и его
+                    пожелания.</h6>
+            </div>
+            <p class="text-justify">Качество работ гарантируется индивидуальным подходом к написанию, строгим контролем
+                содержания и оформления
+                каждого заказа. Для нас показатель эффективности – чтобы клиент был доволен своей работой и получил
+                хорошие
+                отзывы преподавателя. А по-другому и быть не может, ведь наша компания настроена на долгосрочное
+                сотрудничество
+                со своим клиентом, насколько это возможно.</p>
 
+            <div class="header text-uppercase">
+                <h2 class="text-danger">Нерушимые принципы, по которым мы работаем:</h2>
+            </div>
+            <ol>
+                <li>Все работы выполняем индивидуально, с высоким процентом уникальности (минимально – 60%), учитывая
+                    твои
+                    личные пожелания
+                </li>
+                <li>Контролируем качество выполнения, строго по методическим рекомендациям и государственным
+                    стандартам
+                </li>
+                <li>Предоставляем личное сопровождение менеджером, связь 7/7 с 08:00 до 24:00</li>
+                <li>Бесплатно исправляем и/или добавляем текст в работы до получения оценки</li>
+                <li>Выполняем быстро и во время</li>
+                <li>Берем оплату частями. Ты всегда можешь проверить за что платишь деньги</li>
+                <li>Не разглашаем информацию о клиенте, все строго конфиденциально</li>
+                <li>Бесплатно консультируем по структуре защиты</li>
+            </ol>
         </div>
-    </section>
-    <!-- end about info -->
-    <!-- about -->
-    <section id="prices" class="about">
+
+    </div>
+</section>
+<!-- end about info -->
+<!-- about -->
+<section id="prices" class="about">
+    <div class="container">
+        <div class="row py-3">
+            <div class="header w-100 text-center">
+                <h2>Закажи услугу у нас, и получи качественный продукт не дорого и в срок.</h2>
+                <strong>Предлагаем полный спектр студенческих работ - по всем предметам, без ограничений</strong>
+            </div>
+        </div>
+        <div id="our-works" class="row blocks-center">
+            <div class="card">
+                <img class="card-img-top px-2 pt-2" src="img/1.jpg" alt="Курсовые работы">
+                <div class="card-body">
+                    <h4>Курсовые работы</h4>
+                    <h5 class="card-title text-danger text-center font-weight-bold">от 300 грн</h5>
+                    <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal"
+                       data-target="#studWorks">Заказать</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top px-2 pt-2" src="img/2.jpg" alt="Дипломные работы">
+                <div class="card-body">
+                    <h4>Дипломные работы</h4>
+                    <h5 class="card-title text-danger text-center font-weight-bold">от 1500 грн</h5>
+                    <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal"
+                       data-target="#studWorks">Заказать</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top px-2 pt-2" src="img/3.jpg" alt="Диссертации">
+                <div class="card-body">
+                    <h4>Диссертации</h4>
+                    <h5 class="card-title text-danger text-center font-weight-bold">от 3000 грн</h5>
+                    <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal"
+                       data-target="#studWorks">Заказать</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top px-2 pt-2" src="img/4.jpg" alt="Отчеты по практике">
+                <div class="card-body">
+                    <h4>Отчеты по практике</h4>
+                    <h5 class="card-title text-danger text-center font-weight-bold">от 300 грн</h5>
+                    <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal"
+                       data-target="#studWorks">Заказать</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top px-2 pt-2" src="img/5.jpg" alt="Другое">
+                <div class="card-body">
+                    <h4>Другое
+                        <small>РЕФЕРАТЫ, ЭССЕ, ТВОРЧЕСКИЕ РАБОТЫ</small>
+                    </h4>
+                    <h5 class="card-title text-danger text-center font-weight-bold">от 30 грн</h5>
+                    <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal"
+                       data-target="#studWorks">Заказать</a>
+                </div>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="header w-100 text-center">
+                <h2>Ознакомиться со всеми нашими студенческими работами можно, открыв документ</h2>
+            </div>
+        </div>
+        <p class="text-justify">До того как мы предоставим тебе готовую работу, будь то курсовая, реферат или дипломная,
+            она проходит проверку
+            на соответствие методическим рекомендациям, государственным стандартам оформления самого содержания, списка
+            использованных источников (проще - литературы) и дополнительных вложений.</p>
+        <div class="header text-uppercase">
+            <h2 class="text-danger">От чего зависит цена?</h2>
+        </div>
+        <ol>
+            <li>От срочности выполнения. Если курсач, реферат или другая работа нужна уже на завтра, цена будет на 30% -
+                50% выше обычной.
+            </li>
+            <li>От сложности темы. Теоретические работы стоят совсем недорого. Если нужно провести анализ, сравнение,
+                добавить
+                таблицы, формулы, статистику и т.д. - такие работы стоят несколько дороже.
+            </li>
+            <li>От объема работы. К примеру, дипломная на 60 страниц и дипломная на 120 страниц будут отличаться в
+                цене.
+            </li>
+            <li>От требуемого % уникальности. Чем менее плагиата допускается, тем выше цена, но совсем не на много.</li>
+        </ol>
+        <div class="header text-uppercase">
+            <h6 class="text-center">У нас строгие требования к уникальности текста</h6>
+        </div>
+        <p class="text-justify">Каждая работа проходит проверку на плагиат. Плагиатом считается публикация чужого
+            произведения под своим именем,
+            а также заимствование материала чужих произведений без указания источника заимствования. Есть специальные
+            программы, анализирующие уникальность текста. Обычно они отображают процентное соотношение уникального
+            текста
+            к заимствованному. Так выглядит стандартная проверка текста на плагиат:
+            <a href="">ССЫЛКА</a>. Оптимальный процент уникальности, который позволяет большинству ВУЗов принять работу
+            - 80 %.
+            Но бывает, что требований по уникальности нет. В таком случае будь уверен - приобретенные курсовые,
+            дипломные
+            работы, рефераты на заказ в нашей компании содержат не менее 60 % уникальности!</p>
+
+    </div>
+</section>
+<!-- end about -->
+<section class="about">
+    <div class="container">
+        <div class="row py-3">
+            <div style="margin: 0 auto; text-align: center;">
+                <div class="header text-uppercase">
+                    <h2 class="text-danger">Дополнительные услуги</h2>
+                </div>
+                <h5><strong>Наши преподаватели помогут тебе в этом!</strong></h5>
+                <p>
+                    Ты имеешь возможность самостоятельно выбирать место проведения занятий :
+                </p>
+                <p>
+                    В гостях у преподавателя<br>
+                    Принимая преподавателя в гости<br>
+                    На нейтральной стороне - по скайпу<br>
+                </p>
+                <p>
+                    По всем общенаучным предметам (математика, физика, химия, история, укр. язык и литература и т.д.)<br>
+                    Обучаем английскому, немецкому, французскому, польскому, испанскому, китайскому и другим языкам.
+                </p>
+                <p>
+                    <h5>Обучаем всех! От дошкольников до взрослых<br></h5>
+                    Грамматика и разговорная речь.<br>
+                    Используем действующие современные методики обучения, с плановым подходом для максимального эффекта.<br>
+                    Все преподаватели имеют дипломы об окончании магистратуры по иностранным языкам.<br>
+                    Все уроки проводятся с индивидуальным подходом к клиенту!<br>
+                    Гибкий график и возможность выбора нагрузки гарантируется.<br>
+                    Результат заметен уже с первых занятий.<br>
+                    <h5>С нашими профессионалами ты получишь удовольствие от обучения!</h5>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- repetitor -->
+<section>
+    <div class="jumbotron repetitor">
         <div class="container">
             <div class="row py-3">
                 <div class="header w-100 text-center">
-                    <h2>Предлагаем полный спектр студенческих работ - по всем предметам, без ограничений</h2>
-                    <strong>Закажи услугу у нас, и получи качественный продукт не дорого и в срок. Ознакомиться со всеми нашими студенческими
-                        работами можно, открыв документ</strong>
+                    <h2>Скоро ЗНО? Или просто желаешь подтянуть знания по математике? Возможно хочешь зашпрехать на
+                        инглише
+                        :)
+                    </h2>
                 </div>
             </div>
-            <div id="our-works" class="row blocks-center">
-                <div class="card">
-                    <img class="card-img-top px-2 pt-2" src="img/1.jpg" alt="Курсовые работы">
-                    <div class="card-body">
-                        <h4>Курсовые работы</h4>
-                        <h5 class="card-title text-danger text-center font-weight-bold">от 300 грн</h5>
-                        <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#studWorks">Заказать</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top px-2 pt-2" src="img/2.jpg" alt="Дипломные работы">
-                    <div class="card-body">
-                        <h4>Дипломные работы</h4>
-                        <h5 class="card-title text-danger text-center font-weight-bold">от 1500 грн</h5>
-                        <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#studWorks">Заказать</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top px-2 pt-2" src="img/3.jpg" alt="Диссертации">
-                    <div class="card-body">
-                        <h4>Диссертации</h4>
-                        <h5 class="card-title text-danger text-center font-weight-bold">от 3000 грн</h5>
-                        <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#studWorks">Заказать</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top px-2 pt-2" src="img/4.jpg" alt="Отчеты по практике">
-                    <div class="card-body">
-                        <h4>Отчеты по практике</h4>
-                        <h5 class="card-title text-danger text-center font-weight-bold">от 300 грн</h5>
-                        <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#studWorks">Заказать</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top px-2 pt-2" src="img/5.jpg" alt="Другое">
-                    <div class="card-body">
-                        <h4>Другое
-                            <small>РЕФЕРАТЫ, ЭССЕ, ТВОРЧЕСКИЕ РАБОТЫ</small>
-                        </h4>
-                        <h5 class="card-title text-danger text-center font-weight-bold">от 30 грн</h5>
-                        <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#studWorks">Заказать</a>
-                    </div>
+            <div class="row py-3 sub-header">
+                <div class="col-12 text-danger text-center font-weight-bold">
+                    <h3>Репетиторство</h3>
                 </div>
             </div>
-            <p class="text-justify">До того как мы предоставим тебе готовую работу, будь то курсовая, реферат или дипломная, она проходит проверку
-                на соответствие методическим рекомендациям, государственным стандартам оформления самого содержания, списка
-                использованных источников (проще - литературы) и дополнительных вложений.</p>
-            <div class="header text-uppercase">
-                <h6 class="text-center">У нас строгие требования к уникальности текста</h6>
-            </div>
-            <p class="text-justify">Каждая работа проходит проверку на плагиат. Плагиатом считается публикация чужого произведения под своим именем,
-                а также заимствование материала чужих произведений без указания источника заимствования. Есть специальные
-                программы, анализирующие уникальность текста. Обычно они отображают процентное соотношение уникального текста
-                к заимствованному. Так выглядит стандартная проверка текста на плагиат:
-                <a href="">ССЫЛКА</a>. Оптимальный процент уникальности, который позволяет большинству ВУЗов принять работу - 80 %.
-                Но бывает, что требований по уникальности нет. В таком случае будь уверен - приобретенные курсовые, дипломные
-                работы, рефераты на заказ в нашей компании содержат не менее 60 % уникальности!</p>
-
-            <div class="header text-uppercase">
-                <h2 class="text-danger">От чего зависит цена?</h2>
-            </div>
-            <ol>
-                <li>От срочности выполнения. Если курсач, реферат или другая работа нужна уже на завтра, цена будет на 30% -
-                    50% выше обычной.</li>
-                <li>От сложности темы. Теоретические работы стоят совсем недорого. Если нужно провести анализ, сравнение, добавить
-                    таблицы, формулы, статистику и т.д. - такие работы стоят несколько дороже.</li>
-                <li>От объема работы. К примеру, дипломная на 60 страниц и дипломная на 120 страниц будут отличаться в цене.</li>
-                <li>От требуемого % уникальности. Чем менее плагиата допускается, тем выше цена, но совсем не на много.</li>
-            </ol>
-        </div>
-    </section>
-    <!-- end about -->
-    <!-- preferences -->
-    <section id="guaranties" class="preferences">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="shadow"></div>
-            <div class="container">
-                <div class="row pb-5">
-                    <div class="header w-100 text-center">
-                        <h2>Как быть уверенным в том что твой заказ сделают  качественно и точно в срок? Мы тебя прекрасно понимаем.</h2>
-                    </div>
+            <div class="row py-3 text-left">
+                <div class="col-lg-5 offset-lg-2 text-left d-flex flex-row align-items-center">
+                    <img class="m-3" src="img/hat.png" alt="Общенаучные предметы">
+                    <div>По всем общенаучным предметам - физика, математика, химия, история и т.д.</div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 p-4">
-                        <img class="pb-3" src="img/Teacher.png" alt="Индивидуальный подход">
-                        <div>
-                            <strong>Индивидуальная проверка</strong>
-                            <p>Каждая работа перед предоставлением клиенту строго проверяется на наличие орфографических ошибок и несоответствий содержания методичке.
-В случае упущений, доработки и поправки делаются абсолютно бесплатно до получения оценки.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 p-4">
-                        <img class="pb-3" src="img/Time.png" alt="Быстрое решение поставленных задач">
-                        <div>
-                            <strong>Мы за пунктуальность!</strong>
-                            <p>Кому будет приятно краснеть перед преподавателем ,который раз обещая «завтра»? Точно не тебе. Закажи работу у нас и будь уверен во своевременности сдачи работы! Если сдали позже – возвращаем 100 грн за каждый день опоздания.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 p-4">
-                        <img class="pb-3" src="img/qualification.png" alt="Квалифицированные авторы с безупречной репутацией">
-                        <div>
-                            <strong>Вернем всю сумму</strong>
-                            <p>Если конечный вариант заказа не соответствует требованиям (после всех возможных исправлений и дополнений), и по этой причине ты получил негативную оценку – гарантируем возврат средств в полной мере!</p>
-                        </div>
-                    </div>
-                    <!--div class="col-lg-4 col-md-6 p-4">
-                        <img class="pb-3" src="img/ok.png" alt="Адекватные цены и бесплатные правки">
-                        <div>
-                            <strong>Адекватные цены и бесплатные правки</strong>
-                        </div>
-                    </div-->
+                <div class="col-lg-5 text-left d-flex flex-row align-items-center">
+                    <img class="m-3" src="img/book.png" alt="Общенаучные предметы">
+                    <div>По изучению языков - английский, немецкий, французский, испанский, китайский и т.д.</div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 text-center">
+                    <a class="btn btn-lg btn-outline-danger" data-toggle="modal" data-target="#repetitorsWorks">Узнать
+                        стоимость</a>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- end preferences -->
-    <!-- translate -->
-    <section>
-        <div class="jumbotron translate">
-            <div class="container">
-                <div class="row py-3">
-                    <div class="header w-100 text-center">
-                        <h2>Быстро и качественно выполняем перевод текстов различных тематик:</h2>
-                        <strong>юридическая, техническая, медицинская, банковская, художественная, экономическая, научно-образовательная
-                            и т.д</strong>
-                    </div>
-                </div>
-                <div class="row py-3 sub-header">
-                    <div class="col-12 text-danger text-center font-weight-bold">
-                        <h3>Переводы</h3>
-                    </div>
-                </div>
-                <div class="row py-3 text-left">
-                    <div class="col-lg-4 col-md-5 text-left offset-lg-2">
-                        <div>
-                            <img class="p-3" src="img/en.png" alt="Английский язык">
-                            <strong>Английский язык</strong>
-                        </div>
-                        <div>
-                            <img class="p-3" src="img/fr.png" alt="Английский язык">
-                            <strong>Французский язык</strong>
-                        </div>
-                        <div>
-                            <img class="p-3" src="img/zh.png" alt="Английский язык">
-                            <strong>Китайский язык</strong>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 text-left">
-                        <div>
-                            <img class="p-3" src="img/de.png" alt="Английский язык">
-                            <strong>Немецкий язык</strong>
-                        </div>
-                        <div>
-                            <img class="p-3" src="img/es.png" alt="Английский язык">
-                            <strong>Испанский язык</strong>
-                        </div>
-                        <div>
-                            <img class="p-3" src="img/uk.png" alt="Английский язык">
-                            <strong>Украинский язык</strong>
-                        </div>
-                    </div>
-                </div>
-                <div class="row py-5">
-                    <div class="col-12 text-center">
-                        <a class="btn btn-lg btn-outline-danger" data-toggle="modal" data-target="#translateWorks">Заказать перевод</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end translate -->
-    <!-- action -->
-    <section id="actions" class="actions">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="shadow"></div>
-            <div class="container">
-                <h2>Оставь отзыв на странице компании
-                    <span class="text-danger font-weight-bold text-uppercase">writer works</span> и получи
-                    <span class="text-danger font-weight-bold text-uppercase">20 грн.</span> обратно. Не нужно приводить друга. Просто скажи ему о нас — он сам придет.
-Вернем <span class="text-danger font-weight-bold text-uppercase">40 грн.</span> от стоимости твоего заказа. <span class="text-danger font-weight-bold text-uppercase">Оптом дешевле!</span> На 3-х — скидка <span class="text-danger font-weight-bold text-uppercase">по 5%</span>, на 5-х — скидка <span class="text-danger font-weight-bold text-uppercase">по 7%.</span> 
-Постоянные скидки постоянным клиентам! Закажи у нас снова, и мы порадуем тебя скидкой в <span class="text-danger font-weight-bold text-uppercase">10%</span></h2>
-            </div>
-            <div>
-    </section>
-    <!-- end action -->
-    <!-- repetitor -->
-    <section>
-        <div class="jumbotron repetitor">
-            <div class="container">
-                <div class="row py-3">
-                    <div class="header w-100 text-center">
-                        <h2>Скоро ЗНО? Или просто желаешь подтянуть знания по математике? Возможно хочешь зашпрехать по Английски
-                            :)
-                        </h2>
-                    </div>
-                </div>
-                <div class="row py-3 sub-header">
-                    <div class="col-12 text-danger text-center font-weight-bold">
-                        <h3>Репетиторство</h3>
-                    </div>
-                </div>
-                <div class="row py-3 text-left">
-                    <div class="col-lg-5 offset-lg-2 text-left d-flex flex-row align-items-center">
-                        <img class="m-3" src="img/hat.png" alt="Общенаучные предметы">
-                        <div>По всем общенаучным предметам - физика, математика, химия, история и т.д.</div>
-                    </div>
-                    <div class="col-lg-5 text-left d-flex flex-row align-items-center">
-                        <img class="m-3" src="img/book.png" alt="Общенаучные предметы">
-                        <div>По изучению языков - английский, немецкий, французский, испанский, китайский и т.д.</div>
-                    </div>
-                </div>
-                <div class="row py-3">
-                    <div class="col-12 text-center">
-                        <a class="btn btn-lg btn-outline-danger" data-toggle="modal" data-target="#repetitorsWorks">Узнать стоимость</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end translate -->
-    <!-- seo -->
-    <section class="seo">
+    </div>
+</section>
+<!-- end translate -->
+<!-- translate -->
+<section>
+    <div class="jumbotron translate">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="header text-center">
-                        <h3>У нас вы можете заказать текстовый контент SEO - копирайтинг, продающие тексты, набор текста любой
-                            сложности, как рукописного так и печатного</h3>
+            <div class="row py-3">
+                <div class="header w-100 text-center">
+                    <h2>Быстро и качественно выполняем перевод текстов различных тематик:</h2>
+                    <strong>юридическая, техническая, медицинская, банковская, художественная, экономическая,
+                        научно-образовательная
+                        и т.д</strong>
+                </div>
+            </div>
+            <div class="row py-3 sub-header">
+                <div class="col-12 text-danger text-center font-weight-bold">
+                    <h3>Переводы</h3>
+                </div>
+            </div>
+            <div class="row py-3 text-left">
+                <div class="col-md-10 offset-lg-1 language-block">
+                    <div>
+                        <span class="language">En</span>
+                        <strong>Английский язык</strong>
+                    </div>
+                    <div>
+                        <span class="language">Fr</span>
+                        <strong>Французский язык</strong>
+                    </div>
+                    <div>
+                        <span class="language">Zh</span>
+                        <strong>Китайский язык</strong>
+                    </div>
+                    <div>
+                        <span class="language">De</span>
+                        <strong>Немецкий язык</strong>
+                    </div>
+                    <div>
+                        <span class="language">Es</span>
+                        <strong>Испанский язык</strong>
+                    </div>
+                    <div>
+                        <span class="language">Ua</span>
+                        <strong>Украинский язык</strong>
+                    </div>
+                    <div>
+                        <span class="language">Pl</span>
+                        <strong>Польский язык</strong>
                     </div>
                 </div>
             </div>
-            <div id="seo-works" class="row blocks-center">
-                <div class="card">
-                    <img class="card-img-top px-2 pt-2" src="img/seo_1.jpg" alt="Курсовые работы">
-                    <div class="card-body">
-                        <h4>Копирайтинг</h4>
-                        <h5 class="card-title text-danger text-center font-weight-bold">от 30 грн. за т. зн.</h5>
-                        <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#writingWorks">Заказать</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top px-2 pt-2" src="img/seo_2.jpg" alt="Дипломные работы">
-                    <div class="card-body">
-                        <h4>Рерайтинг</h4>
-                        <h5 class="card-title text-danger text-center font-weight-bold">от 20 грн за т. зн.</h5>
-                        <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#writingWorks">Заказать</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top px-2 pt-2" src="img/seo_3.jpg" alt="Диссертации">
-                    <div class="card-body">
-                        <h4>Набор текста</h4>
-                        <h5 class="card-title text-danger text-center font-weight-bold">от 15 грн за т. зн.</h5>
-                        <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#writingWorks">Заказать</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end seo -->
-    <!-- comments -->
-    <section class="comments">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 header text-center text-danger">
-                    <h2>Отзывы наших клиентов</h2>
-                </div>
-            </div>
-            <div id="reviews" class="row">
-                <div class="text-center">
-                    <p>Думала напишу курсовыю своими силами, но набрала кучу хвостов за сессию. Спасибо ребятам, оперативно
-                        сработали. Сдала на отлично. Даже не ожидала</p>
 
-                    <strong>Алена К. КИМО</strong>
-                    <div class="rating star-icon direction-ltr value-2 color-ok label-top">
-                        <div class="star-container">
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="text-center">
-                    <p>Думала напишу курсовыю своими силами, но набрала кучу хвостов за сессию. Спасибо ребятам, оперативно
-                        сработали. Сдала на отлично. Даже не ожидала</p>
-
-                    <strong>Алена К. КИМО</strong>
-                    <div class="rating star-icon direction-ltr value-2 color-ok label-top">
-                        <div class="star-container">
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <p>Думала напишу курсовыю своими силами, но набрала кучу хвостов за сессию. Спасибо ребятам, оперативно
-                        сработали. Сдала на отлично. Даже не ожидала</p>
-
-                    <strong>Алена К. КИМО</strong>
-                    <div class="rating star-icon direction-ltr value-2 color-ok label-top">
-                        <div class="star-container">
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <p>Думала напишу курсовыю своими силами, но набрала кучу хвостов за сессию. Спасибо ребятам, оперативно
-                        сработали. Сдала на отлично. Даже не ожидала</p>
-
-                    <strong>Алена К. КИМО</strong>
-                    <div class="rating star-icon direction-ltr value-2 color-ok label-top">
-                        <div class="star-container">
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                            <div class="star">
-                                <i class="star-empty"></i>
-                                <i class="star-half"></i>
-                                <i class="star-filled"></i>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row py-5">
+                <div class="col-12 text-center">
+                    <p>Этим занимаются профессионалы, имеющие сертификаты, подтверждающие языковые квалификации.</p>
+                    <a class="btn btn-lg btn-outline-danger" data-toggle="modal" data-target="#translateWorks">Заказать
+                        перевод</a>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- end comments -->
-    <!-- address -->
-    <section id="contacts" class="container">
+    </div>
+</section>
+<!-- end translate -->
+<!-- seo -->
+<section class="seo">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-4 col-12 d-flex flex-column text-center my-3">
-                <i class="fas fa-phone"></i>
-                <h2>Звоните</h2>
-                <span>
-                    <a href="tel:380972868283">(097) 286 82 83</a>
-                </span>
-                <span>
-                    <a href="tel:380668653077">(066) 865 30 77</a>
-                </span>
+            <div class="col-12">
+                <div class="header text-center">
+                    <h4>У нас ты можешь заказать текст в электронном или рукописном виде.</h4>
+                    <h6>Переносим текст с фотографий, отсканированных документов, рукописных листов и электронных документов, аудио/видео носителей.<br>
+                        Дополнительно: переписывание конспектов, чертежи в программах AutoCAD и КОМПАС-3D</h6>
+                </div>
             </div>
-            <div class="col-md-4 col-sm-4 col-12 d-flex flex-column text-center my-3">
-                <i class="far fa-envelope"></i>
-                <h2>Пишите</h2>
-                <span>
+        </div>
+        <div id="seo-works" class="row blocks-center">
+            <div class="card">
+                <img class="card-img-top px-2 pt-2" src="img/seo_1.jpg" alt="Курсовые работы">
+                <div class="card-body">
+                    <h4>Копирайтинг</h4>
+                    <h5 class="card-title text-danger text-center font-weight-bold">от 50 грн. за т. зн.</h5>
+                    <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#writingWorks">Заказать</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top px-2 pt-2" src="img/seo_2.jpg" alt="Дипломные работы">
+                <div class="card-body">
+                    <h4>Рерайтинг</h4>
+                    <h5 class="card-title text-danger text-center font-weight-bold">от 40 грн за т. зн.</h5>
+                    <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#writingWorks">Заказать</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top px-2 pt-2" src="img/seo_3.jpg" alt="Диссертации">
+                <div class="card-body">
+                    <h4>Набор текста</h4>
+                    <h5 class="card-title text-danger text-center font-weight-bold">от 15 грн за т. зн.</h5>
+                    <a class="btn btn-outline-danger btn-lg w-100" data-toggle="modal" data-target="#writingWorks">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end seo -->
+<!-- preferences -->
+<section id="guaranties" class="preferences">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="shadow"></div>
+        <div class="container">
+            <div class="row pb-5">
+                <div class="header w-100 text-center">
+                    <h2>Как быть уверенным в том что твой заказ сделают качественно и точно в срок? Мы тебя прекрасно
+                        понимаем.</h2>
+                </div>
+            </div>
+            <div class="row blocks-center">
+                <div class="col-lg-4 col-md-6 p-4">
+                    <img class="pb-3" src="img/Teacher.png" alt="Индивидуальный подход">
+                    <div>
+                        <strong>Индивидуальная проверка</strong>
+                        <p>Каждая работа перед предоставлением клиенту строго проверяется на наличие орфографических
+                            ошибок и несоответствий содержания методичке.
+                            В случае упущений, доработки и поправки делаются абсолютно бесплатно до получения
+                            оценки.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-4">
+                    <img class="pb-3" src="img/Time.png" alt="Быстрое решение поставленных задач">
+                    <div>
+                        <strong>Мы за пунктуальность!</strong>
+                        <p>Кому будет приятно краснеть перед преподавателем ,который раз обещая «завтра»? Точно не тебе.
+                            Закажи работу у нас и будь уверен во своевременности сдачи работы! Если сдали позже –
+                            возвращаем 100 грн за каждый день опоздания.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-4">
+                    <img class="pb-3" src="img/qualification.png"
+                         alt="Квалифицированные авторы с безупречной репутацией">
+                    <div>
+                        <strong>Вернем всю сумму</strong>
+                        <p>Если конечный вариант заказа не соответствует требованиям (после всех возможных исправлений и
+                            дополнений), и по этой причине ты получил негативную оценку – гарантируем возврат средств в
+                            полной мере!</p>
+                    </div>
+                </div>
+                <!--div class="col-lg-4 col-md-6 p-4">
+                    <img class="pb-3" src="img/ok.png" alt="Адекватные цены и бесплатные правки">
+                    <div>
+                        <strong>Адекватные цены и бесплатные правки</strong>
+                    </div>
+                </div-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end preferences -->
+<!-- action -->
+<section id="actions" class="actions">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="shadow"></div>
+        <div class="container">
+            <h2>Оставь отзыв — получи <span class="text-danger font-weight-bold text-uppercase">20 грн.</span> обратно.<br>
+                Не нужно приводить друга.<br>Просто скажи ему о нас — он сам придет.<br>
+                Вернем <span class="text-danger font-weight-bold text-uppercase">40 грн.</span> от стоимости твоего заказа.</h2>
+                <h3 class="text-danger font-weight-bold text-uppercase">Оптом дешевле!</h3>
+                <h2>Закажите от 3 человек, заплатите меньше <span class="text-danger font-weight-bold text-uppercase">на 5%</span> каждый.<br>
+                    Закажите от 5 человек — скидка каждому <span class="text-danger font-weight-bold text-uppercase">7%.</span></h2>
+            <h3 class="text-danger font-weight-bold text-uppercase">При заказе недорогостоящих работ и/или более чем 10 человек — размер скидки уточняйте у своего менеджера.</h3>
+            <h2>
+                Постоянные скидки постоянным клиентам!<br>Закажи у нас снова, и мы порадуем тебя скидкой в <span
+                        class="text-danger font-weight-bold text-uppercase">10%</span></h2>
+        </div>
+        <div>
+</section>
+<!-- end action -->
+
+<!-- comments -->
+<section class="comments">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 header text-center text-danger">
+                <h2>Отзывы наших клиентов</h2>
+            </div>
+        </div>
+        <div id="reviews" class="row">
+            <div class="col-xs-12">
+                <div id="disqus_thread"></div>
+                <script>
+
+                    /**
+                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                     var disqus_config = function () {
+                     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                     };
+                     */
+                    (function () { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://http-writerworks-com-ua.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                    powered by Disqus.</a></noscript>
+
+            </div>
+            <!--<div class="text-center">-->
+            <!--<p>Думала напишу курсовыю своими силами, но набрала кучу хвостов за сессию. Спасибо ребятам, оперативно-->
+            <!--сработали. Сдала на отлично. Даже не ожидала</p>-->
+
+            <!--<strong>Алена К. КИМО</strong>-->
+            <!--<div class="rating star-icon direction-ltr value-2 color-ok label-top">-->
+            <!--<div class="star-container">-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+
+            <!--</div>-->
+            <!--<div class="text-center">-->
+            <!--<p>Думала напишу курсовыю своими силами, но набрала кучу хвостов за сессию. Спасибо ребятам, оперативно-->
+            <!--сработали. Сдала на отлично. Даже не ожидала</p>-->
+
+            <!--<strong>Алена К. КИМО</strong>-->
+            <!--<div class="rating star-icon direction-ltr value-2 color-ok label-top">-->
+            <!--<div class="star-container">-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="text-center">-->
+            <!--<p>Думала напишу курсовыю своими силами, но набрала кучу хвостов за сессию. Спасибо ребятам, оперативно-->
+            <!--сработали. Сдала на отлично. Даже не ожидала</p>-->
+
+            <!--<strong>Алена К. КИМО</strong>-->
+            <!--<div class="rating star-icon direction-ltr value-2 color-ok label-top">-->
+            <!--<div class="star-container">-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="text-center">-->
+            <!--<p>Думала напишу курсовыю своими силами, но набрала кучу хвостов за сессию. Спасибо ребятам, оперативно-->
+            <!--сработали. Сдала на отлично. Даже не ожидала</p>-->
+
+            <!--<strong>Алена К. КИМО</strong>-->
+            <!--<div class="rating star-icon direction-ltr value-2 color-ok label-top">-->
+            <!--<div class="star-container">-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--<div class="star">-->
+            <!--<i class="star-empty"></i>-->
+            <!--<i class="star-half"></i>-->
+            <!--<i class="star-filled"></i>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+</section>
+<!-- end comments -->
+<!-- address -->
+<section id="contacts" class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-12 d-flex flex-column text-center my-3">
+            <i class="fas fa-phone"></i>
+            <h2>Звоните</h2>
+            <span>
+                    <a href="tel:+380972868283">(097) 286 82 83</a>
+                </span>
+            <span>
+                    <a href="tel:+380668653077">(066) 865 30 77</a>
+                </span>
+        </div>
+        <div class="col-md-4 col-sm-4 col-12 d-flex flex-column text-center my-3">
+            <i class="far fa-envelope"></i>
+            <h2>Пишите</h2>
+            <span>
                     <a href="mailto:writer_works@ukr.net">writer_works@ukr.net</a>
                 </span>
-            </div>
-            <div class="col-md-4 col-sm-4 col-12 d-flex flex-column text-center my-3">
-                <i class="far fa-clock"></i>
-                <h2>Мы работаем</h2>
-                <span>Без выходных</span>
-                <span>с 10:00 до 20:00</span>
-            </div>
         </div>
-    </section>
-    <!-- end address-->
-    <!-- footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-uppercase d-flex flex-wrap justify-content-between footer-content">
-                    <strong>Все права защищены</strong>
-                    <div class="d-flex justify-content-between share-content">
-                        <strong>Поделиться в социальных сетях</strong>
-                        <div class="share">
-                            <a href="#">
-                                <i class="fab fa-google-plus-g"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fab fa-vk"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </div>
+        <div class="col-md-4 col-sm-4 col-12 d-flex flex-column text-center my-3">
+            <i class="far fa-clock"></i>
+            <h2>Мы работаем</h2>
+            <span>Без выходных</span>
+            <span>с 08:00 до 24:00</span>
+        </div>
+    </div>
+</section>
+<!-- end address-->
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-uppercase d-flex flex-wrap justify-content-between footer-content">
+                <strong>Все права защищены</strong>
+                <div class="d-flex justify-content-between share-content">
+                    <strong>Поделиться в социальных сетях</strong>
+                    <div class="share">
+                        <a href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- end footer -->
-    <!-- The Modal -->
-    <div class="modal fade" id="studWorks">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Заказать работу</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <form action="studWorks.php" method="post">
-                        <legend></legend>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name">Ваше имя</label>
-                                        <input type="text" name="name" required id="name" class="form-control" placeholder="Ваше имя" aria-describedby="name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="phone">Номер телефона</label>
-                                        <input type="tel" name="phone" required id="phone" class="form-control" placeholder="Номер телефона" aria-describedby="phone">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="work_type">Вид работы</label>
-                                        <select class="form-control" name="work_type" id="work_type">
-                                            <option>Кусовая работа</option>
-                                            <option>Вид работы 2</option>
-                                            <option>Вид работы 3</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="subject">Предмет</label>
-                                        <div class="input-group">
-                                            <select class="custom-select" name="subject" id="subject">
-                                                <option>Педагогика</option>
-                                                <option>Предмет 1</option>
-                                                <option>Предмет 2</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="work_type">Тип работы</label>
-                                        <select class="form-control" name="work_subtype" id="work_subtype">
-                                            <option>Теоретическая</option>
-                                            <option>Практическая</option>
-                                            <option>Комбинированная</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="deadline">Срок сдачи</label>
-                                        <input type="date" name="deadline" required id="deadline" class="form-control" placeholder="Срок сдачи" aria-describedby="deadline">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="pages">Объем работы, стр</label>
-                                        <input type="text" name="pages" required id="pages" class="form-control" placeholder="Объем работы, стр" aria-describedby="pages">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="">Прикрепить файл</label>
-                                        <input type="file" class="form-control-file" name="custom_file" id="custom_file" placeholder="Файл" aria-describedby="fileHelpId">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ СТОИМОСТЬ</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
-                </div>
-
-            </div>
-        </div>
     </div>
-    <!-- end modal -->
-    <!-- The Modal -->
-    <div class="modal fade" id="translateWorks">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+</footer>
+<!-- end footer -->
+<!-- The Modal -->
+<div class="modal fade" id="studWorks">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Заказать перевод</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Заказать работу</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
 
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <form action="translate.php" method="post">
-                        <legend></legend>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name">Ваше имя</label>
-                                        <input type="text" name="name" required id="name" class="form-control" placeholder="Ваше имя" aria-describedby="name">
-                                    </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form action="studWorks.php" method="post">
+                    <legend></legend>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Ваше имя</label>
+                                    <input type="text" name="name" required="" id="name" class="form-control"
+                                           placeholder="Ваше имя" aria-describedby="name">
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="phone">Номер телефона</label>
-                                        <input type="tel" name="phone" required id="phone" class="form-control" placeholder="Номер телефона" aria-describedby="phone">
-                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone">Номер телефона</label>
+                                    <input type="tel" name="phone" required="" id="phone" class="form-control"
+                                           placeholder="Номер телефона" aria-describedby="phone">
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="work_type">С какого языка</label>
-                                        <select class="form-control" name="from" id="from">
-                                            <option>Русский язык</option>
-                                            <option>Английский язык</option>
-                                            <option>Немецкий язык</option>
-                                            <option>Французский язык</option>
-                                            <option>Немецкий язык</option>
-                                            <option>Испанский язык</option>
-                                            <option>Украинский язык</option>
-                                        </select>
-                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="work_email">Ваш e-mail</label>
+                                    <input type="email" name="work_email" required="" id="work_email"
+                                           class="form-control" placeholder="Ваш e-mail" aria-describedby="work_email">
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="work_type">На какой</label>
-                                        <select class="form-control" name="to" id="to">
-                                            <option>Русский язык</option>
-                                            <option>Английский язык</option>
-                                            <option>Немецкий язык</option>
-                                            <option>Французский язык</option>
-                                            <option>Немецкий язык</option>
-                                            <option>Испанский язык</option>
-                                            <option>Украинский язык</option>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="subject">Вид работы</label>
+                                    <div class="input-group">
+                                        <select class="custom-select" name="subject" id="subject">
+                                            <option>Курсовая</option>
+                                            <option>Магистерская</option>
+                                            <option>Бакалаврская</option>
+                                            <option>Диссертация</option>
+                                            <option>Отчет по практике</option>
+                                            <option>Реферат</option>
+                                            <option>Контрольная</option>
+                                            <option>Презентация</option>
+                                            <option>Эссе</option>
+                                            <option>Статья</option>
+                                            <option>Расчетная</option>
+                                            <option>Задача</option>
+                                            <option>Тесты</option>
+                                            <option>Пратическая</option>
+                                            <option>Другое</option>
                                         </select>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ СТОИМОСТЬ</button>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="work-subject">Тема работы</label>
+                                    <input type="text" name="work-subject" required="" id="work-subject"
+                                           class="form-control" placeholder="Тема работы"
+                                           aria-describedby="work-subject">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name-study">Предмет</label>
+                                    <input type="text" name="name-study" required="" id="name-study"
+                                           class="form-control" placeholder="Предмет" aria-describedby="name-study">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="deadline">Дата выполнения</label>
+                                    <input type="date" name="deadline" required="" id="deadline" class="form-control"
+                                           placeholder="Дата выполнения" aria-describedby="deadline">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="unicum">Уникальность, %</label>
+                                    <input type="text" name="unicum" required="" id="unicum" class="form-control"
+                                           placeholder="Уникальность, %" aria-describedby="unicum">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="pages">Объем работы, стр</label>
+                                    <input type="text" name="pages" required="" id="pages" class="form-control"
+                                           placeholder="Объем работы, стр" aria-describedby="pages">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="custom_file">Прикрепить файл</label>
+                                    <input type="file" class="form-control-file" name="custom_file" id="custom_file"
+                                           placeholder="Файл" aria-describedby="fileHelpId">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="custom_file_1">Прикрепить файл</label>
+                                    <input type="file" class="form-control-file" name="custom_file_1" id="custom_file_1"
+                                           placeholder="Файл" aria-describedby="fileHelpId">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="custom_file_2">Прикрепить файл</label>
+                                    <input type="file" class="form-control-file" name="custom_file_2" id="custom_file_2"
+                                           placeholder="Файл" aria-describedby="fileHelpId">
                                 </div>
                             </div>
                         </div>
-                    </form>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
-                </div>
-
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ
+                                    СТОИМОСТЬ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+            </div>
+
         </div>
     </div>
-    <!-- end modal -->
-    <!-- The Modal -->
-    <div class="modal fade" id="repetitorsWorks">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+</div>
+<!-- end modal -->
+<!-- The Modal -->
+<div class="modal fade" id="translateWorks">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Репетиторство</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Заказать перевод</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
 
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <form action="repetitor.php" method="post">
-                        <legend></legend>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name">Ваше имя</label>
-                                        <input type="text" name="name" required id="name" class="form-control" placeholder="Ваше имя" aria-describedby="name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="phone">Номер телефона</label>
-                                        <input type="tel" name="phone" required id="phone" class="form-control" placeholder="Номер телефона" aria-describedby="phone">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="subject">Предмет</label>
-                                        <div class="input-group">
-                                            <select class="custom-select" name="subject" id="subject">
-                                                <option>Педагогика</option>
-                                                <option>Предмет 1</option>
-                                                <option>Предмет 2</option>
-                                            </select>
-                                        </div>
-                                    </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form action="translate.php" method="post">
+                    <legend></legend>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Ваше имя</label>
+                                    <input type="text" name="name" required="" id="name" class="form-control"
+                                           placeholder="Ваше имя" aria-describedby="name">
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ СТОИМОСТЬ</button>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone">Номер телефона</label>
+                                    <input type="tel" name="phone" required="" id="phone" class="form-control"
+                                           placeholder="Номер телефона" aria-describedby="phone">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="work_email">Ваш e-mail</label>
+                                    <input type="email" name="work_email" required="" id="work_email"
+                                           class="form-control" placeholder="Ваш e-mail" aria-describedby="work_email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="work_type">С какого языка</label>
+                                    <select class="form-control" name="from" id="from">
+                                        <option>Английский язык</option>
+                                        <option>Русский язык</option>
+                                        <option>Немецкий язык</option>
+                                        <option>Французский язык</option>
+                                        <option>Немецкий язык</option>
+                                        <option>Испанский язык</option>
+                                        <option>Украинский язык</option>
+                                        <option>Польский язык</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="work_type">На какой</label>
+                                    <select class="form-control" name="to" id="to">
+                                        <option>Русский язык</option>
+                                        <option>Английский язык</option>
+                                        <option>Немецкий язык</option>
+                                        <option>Французский язык</option>
+                                        <option>Немецкий язык</option>
+                                        <option>Испанский язык</option>
+                                        <option>Украинский язык</option>
+                                        <option>Польский язык</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
-                    </form>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
-                </div>
-
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ
+                                    СТОИМОСТЬ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+            </div>
+
         </div>
     </div>
-    <!-- end modal -->
-    <!-- The Modal -->
-    <div class="modal fade" id="writingWorks">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
+</div>
+<!-- end modal -->
+<!-- The Modal -->
+<div class="modal fade" id="repetitorsWorks">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Набор текстов</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Репетиторство</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
 
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <form action="writing.php" method="post">
-                        <legend></legend>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name">Ваше имя</label>
-                                        <input type="text" name="name" required id="name" class="form-control" placeholder="Ваше имя" aria-describedby="name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="phone">Номер телефона</label>
-                                        <input type="tel" name="phone" required id="phone" class="form-control" placeholder="Номер телефона" aria-describedby="phone">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="subject">Предмет</label>
-                                        <div class="input-group">
-                                            <select class="custom-select" name="subject" id="subject">
-                                                <option>Педагогика</option>
-                                                <option>Предмет 1</option>
-                                                <option>Предмет 2</option>
-                                            </select>
-                                        </div>
-                                    </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form action="repetitor.php" method="post">
+                    <legend></legend>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Ваше имя</label>
+                                    <input type="text" name="name" required="" id="name" class="form-control"
+                                           placeholder="Ваше имя" aria-describedby="name">
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ СТОИМОСТЬ</button>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone">Номер телефона</label>
+                                    <input type="tel" name="phone" required="" id="phone" class="form-control"
+                                           placeholder="Номер телефона" aria-describedby="phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="work_email">Ваш e-mail</label>
+                                    <input type="email" name="work_email" required="" id="work_email"
+                                           class="form-control" placeholder="Ваш e-mail" aria-describedby="work_email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="subject">Предмет</label>
+                                    <input type="text" name="subject" required="" id="subject" class="form-control"
+                                           placeholder="Предмет для изучения" aria-describedby="subject">
                                 </div>
                             </div>
                         </div>
-                    </form>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
-                </div>
-
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ
+                                    СТОИМОСТЬ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+            </div>
+
         </div>
     </div>
-    <!-- end modal -->
-    <!-- Scripts -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+</div>
+<!-- end modal -->
+<!-- The Modal -->
+<div class="modal fade" id="writingWorks">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Набор текстов</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form action="writing.php" method="post">
+                    <legend></legend>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Ваше имя</label>
+                                    <input type="text" name="name" required="" id="name" class="form-control"
+                                           placeholder="Ваше имя" aria-describedby="name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone">Номер телефона</label>
+                                    <input type="tel" name="phone" required="" id="phone" class="form-control"
+                                           placeholder="Номер телефона" aria-describedby="phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="work_email">Ваш e-mail</label>
+                                    <input type="email" name="work_email" required="" id="work_email"
+                                           class="form-control" placeholder="Ваш e-mail" aria-describedby="work_email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="pages">Объем работы, стр</label>
+                                    <input type="text" name="pages" required="" id="pages" class="form-control"
+                                           placeholder="Объем работы, стр" aria-describedby="pages">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="subject-1">Вид работы</label>
+                                    <div class="input-group">
+                                        <select class="custom-select" name="subject-1" id="subject-1">
+                                            <option>Копирайтинг</option>
+                                            <option>Рерайтинг</option>
+                                            <option>Набор</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="custom_file">Прикрепить файл</label>
+                                    <input type="file" class="form-control-file" name="custom_file" id="custom_file"
+                                           placeholder="Файл" aria-describedby="fileHelpId">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-outline-danger text-dark">УЗНАТЬ
+                                    СТОИМОСТЬ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end modal -->
+<!-- Scripts -->
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="js/plugins.js"></script>
-    <script type="text/javascript" src="js/vendor/slick.min.js"></script>
-    <script type="text/javascript" src="js/date-input-polyfill.dist.js"></script>
-    <script src="js/main.js"></script>
+<script src="js/plugins.js"></script>
+<script type="text/javascript" src="js/vendor/slick.min.js"></script>
+<script type="text/javascript" src="js/date-input-polyfill.dist.js"></script>
+<script id="dsq-count-scr" src="//http-writerworks-com-ua.disqus.com/count.js" async></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
