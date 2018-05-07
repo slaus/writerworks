@@ -7170,6 +7170,13 @@ p>a:hover {text-decoration: none; color: #f72e2e; border-bottom: 1px dashed #f72
 }
 }
 @media screen and (max-width: 767px) {
+    body {font-size: .9rem;}
+    h2, .h2 {
+    font-size: 1.6rem;
+}
+    h3, .h3 {
+    font-size: 1.5rem;
+}
 .phone-numbers {
     order: 1;
     margin-left: auto;
@@ -7215,4 +7222,8 @@ section.seo, section#about-info {
 }
 .actions h2, .actions .h2 {
   font-size: 1.6rem;
+}
+.w-100 {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
