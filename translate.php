@@ -5,7 +5,7 @@
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
         $name = str_replace(array("\r","\n"),array(" "," "),$name);
-       
+        $work_email = trim($_POST["work_email"]);
         $phone = filter_var(trim($_POST["phone"]), FILTER_SANITIZE_STRING);
         $from = trim($_POST["from"]);
         $to = trim($_POST["to"]);
@@ -21,7 +21,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "mister.slaus@gmail.com";
+        $recipient = "writer_works@ukr.net";
 
         // Set the email subject.
         $subject = "Новое сообщение от $name";

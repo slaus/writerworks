@@ -7,10 +7,9 @@ $to = 'writer_works@ukr.net';
       
         $phone = filter_var(trim($_POST["phone"]), FILTER_SANITIZE_STRING);
         
-        $work_type = trim($_POST["work_type"]);
-       // $work_type = filter_var(trim($work_type), FILTER_SANITIZE_STRING);
+     
         
-        $subjects = trim($_POST["subject"]);
+        $subjects = trim($_POST["subject-1"]);
        // $subject = filter_var(trim($subject), FILTER_SANITIZE_STRING);
         
         
@@ -18,19 +17,16 @@ $to = 'writer_works@ukr.net';
             //  $work_email = filter_var(trim($work_email), FILTER_SANITIZE_STRING);
         
         
-        $deadline = trim($_POST["deadline"]);
-      //  $deadline = filter_var(trim($deadline), FILTER_SANITIZE_STRING);
+     
         
         $pages = trim($_POST["pages"]);
       //  $pages = filter_var(trim($pages), FILTER_SANITIZE_STRING);
 
-        $unicum = trim($_POST["unicum"]);
-      //  $unicum = filter_var(trim($unicum), FILTER_SANITIZE_STRING);
+    
 
-        $work_subject = trim($_POST["work-subject"]);
-      //  $work-subject = filter_var(trim($work-subject), FILTER_SANITIZE_STRING);
-// 
-  
+    
+ 
+  $filearray = array();
   if ( !empty( $_FILES['custom_file']['tmp_name'] ) and $_FILES['custom_file']['error'] == 0 ) {
    $filepath = $_FILES['custom_file']['tmp_name'];
    $filename = $_FILES['custom_file']['name'];
@@ -38,20 +34,21 @@ $to = 'writer_works@ukr.net';
     $filepath = '';
     $filename = '';
   }
- 
+  
+
                     $body = "Имя: $name\n";
                     $body .= "Номер телефона: $phone\n";
                     $body .= "E-mail: $work_email\n";
-                    $body .= "Вид работы: $work_type\n";
-                    $body .= "Тема работы: $work_subject\n";
-                    $body .= "Предмет: $subjects\n";
-                    $body .= "Дата выполнения: $deadline\n";
-                    $body .= "Уникальность, %: $unicum\n";
+                    
+                    
+                    $body .= "Вид работы: $subjects\n";
+                    
+                   
                     $body .= "Объем работы, стр: $pages\n";
-                    $email = 'writer@mail.com';
+                    $email = 'writerworks.com.ua';
  
   
-if (send_mail($to, $body, $email,$filepath, $filename ,$subjects)) {
+if (send_mail($to, $body, $email, $filepath, $filename, $subjects)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Спасибо за отзыв! Мы вам скоро ответим";
@@ -72,7 +69,7 @@ if (send_mail($to, $body, $email,$filepath, $filename ,$subjects)) {
 // Вспомогательная функция для отправки почтового сообщения с вложением
 function send_mail($to, $body, $email, $filepath, $filename ,$subjects)
 {
- 
+  //$subject = 'Тестирование формы с прикреплением файла с сайта proverstka.com.ua';
   $boundary = "--".md5(uniqid(time())); // генерируем разделитель
   $headers = "From: ".$email."\r\n";   
   $headers .= "MIME-Version: 1.0\r\n";
@@ -83,9 +80,7 @@ function send_mail($to, $body, $email, $filepath, $filename ,$subjects)
 
   $body = $body."\r\n\r\n";
  
-
-  
- $multipart .= $body;
+  $multipart .= $body;
  
   $file = '';
   if ( !empty( $filepath ) ) {
@@ -101,8 +96,8 @@ function send_mail($to, $body, $email, $filepath, $filename ,$subjects)
     }
   }
   $multipart .= $file."--".$boundary."--\r\n";
-   
-  if(mail($to, $subjects, $multipart, $headers)){
+  
+  if(mail($to, $subject, $multipart, $headers)){
      return true; 
   }else{
       return false;
